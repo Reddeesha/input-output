@@ -32,3 +32,16 @@ def main():
 
 if __name__ == "__main__":
     main()
+  def main():
+    # Input for temperature in Celsius
+    celsius = float(input("Enter temperature in Celsius: "))
+
+    # Convert Celsius to Fahrenheit
+    fahrenheit = (celsius * 9/5) + 32
+
+    # Display the temperature in Fahrenheit
+    print(f"\nTemperature in Fahrenheit: {fahrenheit:.2f}")
+
+if __name__ == "__main__":
+    main()
+
